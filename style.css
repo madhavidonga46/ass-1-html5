@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: white;
+}
+#app {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background: url('images/banner.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  width: 20%;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.logo {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  border: 4px double white;
+  text-align: center;
+  font-size: 28px !important;
+  margin-top: 3%;
+  color: white;
+}
+
+.navbar-links {
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+.navbar-links ul li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 5px 2px;
+}
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 19px;
+}
+.social-media {
+  font-size: 25px;
+  width: 60%;
+  height: auto;
+  margin: auto;
+  color: white;
+}
+.social-media .social-text {
+  font-size: 14px !important;
+}
+
+.banner {
+  width: 35%;
+  height: auto;
+  margin: auto;
+  margin-left: 35%;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.leftsidebar {
+  width: 20%;
+  background-color: rgba(10, 0, 0, 0.7);
+  height: auto;
+}
+.rightsidebar {
+  width: 80%;
+  height: auto;
+  background-color: rgb(233, 231, 231);
+  display: flex;
+  flex-wrap: wrap !important;
+}
+.right1,
+.right2 {
+  width: 45%;
+  height: auto;
+  padding: 25px;
+}
+.right1 .fa-address-book {
+  font-size: 85px;
+  color: lightskyblue;
+}
+
+.right2 .fa-address-book {
+  font-size: 85px;
+  color: skyblue;
+}
+.our-work {
+  width: 90% !important;
+  height: auto;
+  margin: auto;
+  border: double 5px gray;
+  padding: 25px;
+}
+.our-work h1 {
+  font-size: 35px;
+}
+img
+{
+    padding: 10px;
+    margin-left: 2px;
+}
+
+.our-client {
+  width: 90% !important;
+  height: auto;
+  margin: auto;
+  padding: 25px;
+}
+.our-client h1 {
+  font-size: 35px;
+}
